@@ -1,5 +1,8 @@
 #!/usr/bin/env node
-import brainEven from "../src/games/even-game";
+import runGame from '../index.js';
+import evenRound from '../src/games/even-game.js';
+import { phrases } from '../phrases.js';
 
+const evenGame = () => runGame(phrases.DESCRIPTION_EVEN_GAME, evenRound);
 
-brainEven();
+evenGame();

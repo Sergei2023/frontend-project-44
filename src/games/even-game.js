@@ -1,20 +1,13 @@
-import newGame from '../../index.js';
+import { getRandomNum } from '../cli.js';
+import { phrases } from '../../phrases.js';
 
+const isEven = (num) => num % 2 === 0;
 
+const evenRound = () => {
+  const question = getRandomNum(1, 10);
+  const correctAnswer = isEven(question) ? phrases.YES : phrases.NO;
 
-import generateRandom from '../../genereteRandom.js';
-const gameQuestion = 'Answer "yes" if the number is even, otherwise answer "no".';
-
-const isEven = (number) => (number % 2 === 0);
-
-const gameQuestionAnswer = () => {
-  const startNumber = 1;
-  const maxNumForRundomNumber = 100;
-  const question = generateRandom(startNumber, maxNumForRundomNumber);
-  const answer = isEven(question) ? 'yes' : 'no';
-  return [question, answer];
+  return [question, correctAnswer];
 };
 
-const brainEven = () => newGame(gameQuestion, gameQuestionAnswer);
-
-export default brainEven;
+export default evenRound;

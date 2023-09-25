@@ -9,4 +9,8 @@ https://asciinema.org/connect/67698752-69cc-4df7-a5f5-5462f5086ecd // запис
 
 
  https://asciinema.org/connect/67698752-69cc-4df7-a5f5-5462f5086ecd // запись обоих исходов. Это шаг ноиер 7
+
+
+ https://asciinema.org/connect/67698752-69cc-4df7-a5f5-5462f5086ecd // шаг номер восемь 
+
  

@@ -13,4 +13,7 @@ https://asciinema.org/connect/67698752-69cc-4df7-a5f5-5462f5086ecd // запис
 
  https://asciinema.org/connect/67698752-69cc-4df7-a5f5-5462f5086ecd // шаг номер восемь 
 
- 
+
+ https://asciinema.org/connect/67698752-69cc-4df7-a5f5-5462f5086ecd // шаг номер 9 ФИНАЛЬНЫЙ( я минут 10 только решал эту головоломку)
+
+

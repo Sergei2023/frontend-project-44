@@ -1,22 +1,19 @@
-import { rand} from "../cli.js";
+import { rand } from "../cli.js";
 
 const calcRound = () => {
-
-
   const firstOperand = rand(1, 20);
 
   const secondOperand = rand(1, 20);
 
   const operatorIndex = rand(0, 2);
 
-  const operators = ['+', '-', '*'];
+  const operators = ["+", "-", "*"];
 
   const operator = operators[operatorIndex];
 
   let correctAnswer = 0;
 
   switch (operatorIndex) {
-
     case 0:
       correctAnswer = firstOperand + secondOperand;
       break;

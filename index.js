@@ -1,11 +1,11 @@
-import readlineSync from 'readline-sync';
+import readlineSync from "readline-sync";
 import {
   phrases,
   printCongratulation,
   printWrongAnswer,
   printGreeting,
   printQuestion,
-} from './phrases.js';
+} from "./phrases.js";
 
 const runGame = (description, getRound) => {
   console.log(phrases.GREETING);

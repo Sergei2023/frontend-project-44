@@ -1,5 +1,5 @@
-import { rand } from "../cli.js";
-import { phrases } from "../../phrases.js";
+import { rand } from '../cli.js';
+import { phrases } from '../../phrases.js';
 
 const isEven = (num) => num % 2 === 0;
 

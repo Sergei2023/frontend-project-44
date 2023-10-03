@@ -1,4 +1,4 @@
-import { rand } from "../cli.js";
+import { rand } from '../cli.js';
 
 const getGcd = (num1, num2) => (!num2 ? num1 : getGcd(num2, num1 % num2));
 

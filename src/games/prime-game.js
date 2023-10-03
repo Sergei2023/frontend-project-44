@@ -1,5 +1,5 @@
-import { rand } from "../cli.js";
-import { phrases } from "../../phrases.js";
+import { rand } from '../cli.js';
+import { phrases } from '../../phrases.js';
 
 const isPrime = (num) => {
   for (let i = 2, max = Math.sqrt(num); i <= max; i += 1) {

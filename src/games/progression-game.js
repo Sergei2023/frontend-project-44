@@ -1,4 +1,4 @@
-import { rand } from "../cli.js";
+import { rand } from '../cli.js';
 
 const progressionRound = () => {
   const start = rand(1, 100);
@@ -17,9 +17,9 @@ const progressionRound = () => {
 
   const correctAnswer = modifiedProgression[hiddenNumber];
 
-  modifiedProgression[hiddenNumber] = "..";
+  modifiedProgression[hiddenNumber] = '..';
 
-  const question = progression.join(" ").toString();
+  const question = progression.join(' ').toString();
 
   return [question, correctAnswer.toString()];
 };

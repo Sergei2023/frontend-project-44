@@ -1,4 +1,4 @@
-import { rand } from "../cli.js";
+import { rand } from '../cli.js';
 
 const calcRound = () => {
   const firstOperand = rand(1, 20);
@@ -7,7 +7,7 @@ const calcRound = () => {
 
   const operatorIndex = rand(0, 2);
 
-  const operators = ["+", "-", "*"];
+  const operators = ['+', '-', '*'];
 
   const operator = operators[operatorIndex];
 

@@ -12,7 +12,7 @@ export const phrases = {
     'Answer "yes" if the number is even, otherwise answer "no".',
   DESCRIPTION_PRIME_GAME:
     'Answer "yes" if given number is prime. Otherwise answer "no".',
-  };
+};
 
 export const printGreeting = (userName) => `Hello, ${userName}!`;
 export const printQuestion = (question) => `Question: ${question}`;
